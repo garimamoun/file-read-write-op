@@ -6,7 +6,7 @@ file.write(text)
 
 file.close()
 
-print("✅ Data written to file successfully!\n")
+print("Data written to file successfully!\n")
 
 # Read data from the file
 file = open("example.txt", "r")
@@ -17,3 +17,4 @@ file.close()
 
 print("📄 Reading data from file:")
 print(content)
+
